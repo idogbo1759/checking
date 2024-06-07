@@ -3,7 +3,7 @@ pipeline {
     stages {      
         stage('build') {
             steps {
-               sh 'sudo ./hello.sh'
+               sh 'sudo /root/hello.sh'
             }
         }
     }
