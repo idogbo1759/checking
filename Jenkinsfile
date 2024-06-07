@@ -3,8 +3,7 @@ pipeline {
     stages {      
         stage('build') {
             steps {
-               sh "chmod +x -R ${env.WORKSPACE}"
-               sh './hello.sh'
+               sh 'sudo ./hello.sh'
             }
         }
     }
